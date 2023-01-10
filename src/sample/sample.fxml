@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="356.0" prefWidth="251.0" style="-fx-background-color: #2f3538;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane layoutX="-7.0" prefHeight="105.0" prefWidth="258.0" style="-fx-background-color: #4a69ff;">
+         <children>
+            <AnchorPane layoutY="57.0" prefHeight="61.0" prefWidth="264.0" style="-fx-background-color: #ffe55e;">
+               <children>
+                  <AnchorPane layoutX="80.0" layoutY="-64.0" />
+               </children></AnchorPane>
+            <ImageView fitHeight="124.0" fitWidth="104.0" layoutX="91.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../trident-g05d5fa2fa_1280.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <Label layoutX="5.0" layoutY="123.0" prefHeight="55.0" prefWidth="251.0" text="Випадковий номер для твого авто" textFill="#9a8d8d">
+         <font>
+            <Font name="Damascus Regular" size="15.0" />
+         </font>
+         <contextMenu>
+            <ContextMenu>
+              <items>
+                <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+              </items>
+            </ContextMenu>
+         </contextMenu></Label>
+      <MenuButton fx:id="kkkk" ellipsisString="вапып" layoutX="76.0" layoutY="196.0" lineSpacing="15.0" mnemonicParsing="false" style="-fx-background-color: #e6e7e8;" text="Область" wrapText="true">
+        <items>
+          <MenuItem id="1" mnemonicParsing="false" text="Киевская" />
+          <MenuItem id="2" mnemonicParsing="false" text="Черниговская" />
+            <MenuItem id="3" mnemonicParsing="false" text="Харьковская" />
+        </items>
+         <font>
+            <Font name="Bodoni 72 Oldstyle Book" size="14.0" />
+         </font>
+      </MenuButton>
+   </children>
+</AnchorPane>
